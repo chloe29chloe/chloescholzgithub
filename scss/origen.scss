@@ -70,7 +70,11 @@ display: inline-block;
     
 }
 
- 
+ .cabeza {
+
+z-index: 30;
+
+ }
 
 .picredes{
     width: 95%;
@@ -87,7 +91,7 @@ header {
     position: fixed;
     background: rgb(255, 255, 255);
     width: 100%;  
-    height: 12%;
+    height: 8%;
 }
 
 .logoanimado{
@@ -123,14 +127,15 @@ li{
     position: relative;
     left: 340px;
     bottom: 60px;
-    font-family: Euphemia UCAS;
+    font-family: Euphemia UCAS;}
 
 li:hover {filter: opacity(.5);}
     
+}
 
 a { 
     text-decoration: none;
-    color: black;
+    color: rgb(0, 0, 0);
 }
 
 
@@ -212,7 +217,7 @@ footer{
     height: 500px;
     text-align: center;
     padding-top: 20px;
-    font-size: 1em;
+    font-size: 80%;
 }
 
 
@@ -246,7 +251,7 @@ footer{
 .gridhijocinco{
     grid-area: titulo;
     padding-top: 60px;
-    font-size: 100%;
+    font-size: 90%;
     text-align: center;
    
 
@@ -258,6 +263,7 @@ footer{
     height: 500px;
     text-align: center;
     padding-top: 20px;
+    font-size: 80%;
 }
 
 
@@ -292,7 +298,7 @@ footer{
 .gridhijoocho{
     grid-area: titulo;
     padding-top: 60px;
-    font-size: 100%;
+    font-size: 80%;
     text-align: center;
    
 
@@ -304,6 +310,7 @@ footer{
     height: 500px;
     text-align: center;
     padding-top: 20px;
+    font-size: 80%;
 }
 
 
@@ -358,3 +365,522 @@ footer{
 @keyframes efecto {
     0%  { border-radius: 60%;}
 }
+
+
+
+@media screen and (max-width: 768px) {
+
+   .titleindex{
+
+    font-family: Euphemia UCAS;
+    font-size: 27px;
+    position: relative;
+    bottom: 100px;
+    left: 20px; 
+    color: white;
+    
+}
+
+
+}
+
+/*responsive*/
+
+
+/*tablet*/ 
+@media (min-width: 768px) and (max-width: 1023px) {
+
+    .titleindex{
+ 
+     font-family: Euphemia UCAS;
+     font-size: 25px;
+     position: relative;
+     bottom: 100px;
+     left: 20px; 
+     color: rgb(255, 255, 255);
+     
+ }
+ }
+
+/*mobile*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+
+    .titleindex{
+ 
+     font-family: Euphemia UCAS;
+     font-size: 20px;
+     position: relative;
+     bottom: 70px;
+     left: 20px; 
+     color: rgb(255, 255, 255);
+     
+ }
+ }
+
+/*mobile*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+    header {
+
+        position: fixed;
+        background: rgb(255, 255, 255);
+        width: 100%;  
+        height: 7%;
+    }}
+
+    @media (min-width: 481px) and (max-width: 767px) {
+
+    .logoanimado{
+        height: 28px;
+        width: 28px;
+        position: relative;
+        left: 10px;
+        top: 8px;
+        
+    }}
+
+    @media (min-width: 481px) and (max-width: 767px) {
+
+    .fotobanner {
+        width: $medida;
+        height: 50%;
+       padding-top: 14%;}}
+
+    
+       @media (min-width: 481px) and (max-width: 767px) {
+        h1 {
+            color: rgb(0, 0, 0);
+            font-family: Euphemia UCAS;
+            font-size: 15px;
+            position: relative;
+            bottom: 20px;
+            left: 45px;}}
+
+
+
+@media (min-width: 481px) and (max-width: 767px) {
+    .iconosredes {
+
+        width: 1x;
+        height: 15px;
+    }}
+      
+
+    @media (min-width: 481px) and (max-width: 767px) {
+        h4 {
+
+            font-size: 15px;
+        }}
+        @media (min-width: 481px) and (max-width: 767px) {
+      
+       p{
+
+        font-size: 60%;
+
+       }}
+
+
+       @media (min-width: 481px) and (max-width: 767px) {
+       
+        .titulosecundario {
+            padding-top:10px;
+            height: 17px;
+            top: 55px;
+            padding-bottom: 40px;
+            position: relative;
+            background-image: $gradiente;}}
+            
+
+            @media (min-width: 481px) and (max-width: 767px) {
+
+                .cabeza
+                {
+                    width: 100%;
+                    height: 8%;
+
+                
+        
+                }
+            }
+                 /*mobile*/
+
+            @media (min-width: 481px) and (max-width: 767px) {
+                .menu{
+
+                    display: grid;
+                    text-decoration: none;
+                    grid-area: menu;
+                    display: inline-block;
+                    grid-template-columns: 15% 15% 15% 15% 15%;
+                    margin-top: 6%;
+                    top: -42px;
+                    left: 20% !important;
+                    margin-right: 4% !important;
+                    margin-bottom: 50% !important;
+                    font-size: 50%;
+                    
+
+                }}
+
+                /*TABLET*/ 
+                @media (min-width: 768px) and (max-width: 1023px) {
+                    .menu{
+    
+                     
+                        display: grid;
+                        text-decoration: none;
+                        grid-area: menu;
+                        display: inline-block;
+                        grid-template-columns: 15% 15% 15% 15% 15%;
+                        margin-top: 6%;
+                        top: -120px;
+                        left: 33% !important;
+                        margin-right: 4% !important;
+                        margin-bottom: 50% !important;
+                        font-size: 80%;
+                    }}
+
+
+
+                        
+
+                     /*mobile*/
+                    @media (min-width: 481px) and (max-width: 767px) {
+                        h1 {
+
+                                color: rgb(0, 0, 0);
+                                font-family: Euphemia UCAS;
+                                font-size: 15px;
+                                position: relative;
+                                bottom: 19px;
+                                left: 45%;
+                            }
+
+                        }
+                     /*mobile*/
+
+                     @media (min-width: 481px) and (max-width: 767px) {
+                         .logoanimado{
+                                height: 20px;
+                                width: 20px;
+                                left: 200px;
+                                top: 5px;
+                                
+                            } 
+
+
+                         }
+                        
+
+                         @media (min-width: 481px) and (max-width: 767px) {
+                             h4{
+                                text-align: center;
+                                font-size: 90%;
+                             }}
+
+                         
+
+             
+
+
+
+
+
+                                /*mobile*/
+                    @media (min-width: 481px) and (max-width: 767px) { 
+
+                             .gridpadreuno {
+
+                                background-image: $gradiente;
+                                display: grid;
+                                grid-template-areas:
+                                "imguno titulo" /*primer fila*/ 
+                                "imguno texto"  /*segunda fila*/
+                                "imguno texto" /*tercera fila*/ ;
+                                grid-template-columns: 50% 40%;
+                                grid-template-rows: 25% 25%;
+                                margin-bottom: 2%;
+                                margin-left: 2%;
+                                margin-right: 2%;
+                                
+                            
+                                
+                            }
+                            
+                            
+                            .gridhijouno{
+                                grid-area: imguno;
+                                height: 75%;
+                                width: 80%;
+                                margin-left: 5%;
+                                padding-top: 16%;
+                                object-fit: cover;
+                                
+                            }
+                            
+                            
+                            .gridhijodos{
+                                grid-area: titulo;
+                                padding-top: 100px;
+                                font-size: 80%;
+                                text-align: center;
+                                
+                               
+                            
+                            }
+                            
+                            
+                            .gridhijotres{
+                                grid-area: texto;
+                                height: 500px;
+                                text-align: center;
+                                padding-top: 20px;
+                                font-size:90%;
+                            }
+                            
+                            
+                            
+                            .gridpadredos {
+                            
+                                background-image: linear-gradient(315deg, #aee1f9 0%, #f6ebe6 74%);
+                                display: grid;
+                                grid-template-areas:
+                                "imguno titulo" /*primer fila*/ 
+                                "imguno texto"  /*segunda fila*/
+                                "imguno texto" /*tercera fila*/ ;
+                                grid-template-columns: 50% 40%;
+                                grid-template-rows: 25% 25%;
+                                margin: 2%;
+                                
+                            }
+                            
+                            
+                            .gridhijocuatro{
+                                grid-area: imguno;
+                                height: 75%;
+                                width: 80%;
+                                margin-left: 5%;
+                                padding-top: 8%;
+                                object-fit: cover;
+                                
+                            }
+                            
+                            
+                            .gridhijocinco{
+                                grid-area: titulo;
+                                padding-top: 60px;
+                                font-size: 100%;
+                                text-align: center;
+                               
+                            
+                            }
+                            
+                            
+                            .gridhijoseis{
+                                grid-area: texto;
+                                height: 500px;
+                                text-align: center;
+                                padding-top: 20px;
+                                font-size: 85%;
+                            }
+                            
+                            
+                            
+                            
+                            .gridpadretres {
+                            
+                                background-image: linear-gradient(315deg, #aee1f9 0%, #f6ebe6 74%);
+                                display: grid;
+                                grid-template-areas:
+                                "imguno titulo" /*primer fila*/ 
+                                "imguno texto"  /*segunda fila*/
+                                "imguno texto" /*tercera fila*/ ;
+                                grid-template-columns: 50% 40%;
+                                grid-template-rows: 25% 25%;
+                                margin: 2%;
+                                
+                            }
+                            
+                            
+                            .gridhijosiete{
+                                grid-area: imguno;
+                                height: 75%;
+                                width: 80%;
+                                margin-left: 5%;
+                                padding-top: 8%;
+                                object-fit: cover;
+                                
+                            }
+                            
+                            
+                            .gridhijoocho{
+                                grid-area: titulo;
+                                padding-top: 60px;
+                                font-size: 90%;
+                                text-align: center;
+                               
+                            
+                            }
+                            
+                            
+                            .gridhijonueve{
+                                grid-area: texto;
+                                height: 500px;
+                                text-align: center;
+                                padding-top: 20px;
+                                font-size: 88%;
+                            }}
+                            
+
+
+
+
+                            /*tablet*/
+
+                            
+                            @media (min-width: 768px) and (max-width: 1023px) {
+
+
+                            .gridpadreuno {
+
+                                background-image: $gradiente;
+                                display: grid;
+                                grid-template-areas:
+                                "imguno titulo" /*primer fila*/ 
+                                "imguno texto"  /*segunda fila*/
+                                "imguno texto" /*tercera fila*/ ;
+                                grid-template-columns: 50% 40%;
+                                grid-template-rows: 25% 25%;
+                                margin-bottom: 2%;
+                                margin-left: 2%;
+                                margin-right: 2%;
+                                
+                            
+                                
+                            }
+                            
+                            
+                            .gridhijouno{
+                                grid-area: imguno;
+                                height: 75%;
+                                width: 80%;
+                                margin-left: 5%;
+                                padding-top: 16%;
+                                object-fit: cover;
+                                
+                            }
+                            
+                            
+                            .gridhijodos{
+                                grid-area: titulo;
+                                padding-top: 100px;
+                                font-size: 1em;
+                                text-align: center;
+                                
+                               
+                            
+                            }
+                            
+                            
+                            .gridhijotres{
+                                grid-area: texto;
+                                height: 500px;
+                                text-align: center;
+                                padding-top: 20px;
+                                font-size: 70%;
+                            }
+                            
+                            
+                            
+                            .gridpadredos {
+                            
+                                background-image: linear-gradient(315deg, #aee1f9 0%, #f6ebe6 74%);
+                                display: grid;
+                                grid-template-areas:
+                                "imguno titulo" /*primer fila*/ 
+                                "imguno texto"  /*segunda fila*/
+                                "imguno texto" /*tercera fila*/ ;
+                                grid-template-columns: 50% 40%;
+                                grid-template-rows: 25% 25%;
+                                margin: 2%;
+                                
+                            }
+                            
+                            
+                            .gridhijocuatro{
+                                grid-area: imguno;
+                                height: 75%;
+                                width: 80%;
+                                margin-left: 5%;
+                                padding-top: 8%;
+                                object-fit: cover;
+                                
+                            }
+                            
+                            
+                            .gridhijocinco{
+                                grid-area: titulo;
+                                padding-top: 60px;
+                                font-size: 90%;
+                                text-align: center;
+                               
+                            
+                            }
+                            
+                            
+                            .gridhijoseis{
+                                grid-area: texto;
+                                height: 500px;
+                                text-align: center;
+                                padding-top: 20px;
+                                font-size: 70%;
+                            }
+                            
+                            
+                            
+                            
+                            .gridpadretres {
+                            
+                                background-image: linear-gradient(315deg, #aee1f9 0%, #f6ebe6 74%);
+                                display: grid;
+                                grid-template-areas:
+                                "imguno titulo" /*primer fila*/ 
+                                "imguno texto"  /*segunda fila*/
+                                "imguno texto" /*tercera fila*/ ;
+                                grid-template-columns: 50% 40%;
+                                grid-template-rows: 25% 25%;
+                                margin: 2%;
+                                
+                            }
+                            
+                            
+                            .gridhijosiete{
+                                grid-area: imguno;
+                                height: 75%;
+                                width: 80%;
+                                margin-left: 5%;
+                                padding-top: 8%;
+                                object-fit: cover;
+                                
+                            }
+                            
+                            
+                            .gridhijoocho{
+                                grid-area: titulo;
+                                padding-top: 60px;
+                                font-size: 80%;
+                                text-align: center;
+                               
+                            
+                            }
+                            
+                            
+                            .gridhijonueve{
+                                grid-area: texto;
+                                height: 500px;
+                                text-align: center;
+                                padding-top: 20px;
+                                font-size: 65%;
+                            }}
+                            
